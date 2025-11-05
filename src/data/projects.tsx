@@ -896,80 +896,80 @@ const projects: Project[] = [
       );
     },
   },
-  { // 03. Portfolio project
-    id: "portfolio",
-    category: "Portfolio",
-    title: "My Portfolio",
-    src: "/assets/projects-screenshots/myportfolio/landing.png",
-    screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.ts,
-        PROJECT_SKILLS.next,
-        PROJECT_SKILLS.shadcn,
-        PROJECT_SKILLS.aceternity,
-        PROJECT_SKILLS.framerMotion,
-        PROJECT_SKILLS.tailwind,
-        PROJECT_SKILLS.spline,
-      ],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Welcome to my digital playground, where creativity meets code in the
-            dopest way possible.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">
-            Beautiful 3D Objects{" "}
-          </TypographyH3>
-          <p className="font-mono mb-2">
-            Did you see that 3D keyboard modal? Yeah! I made that. That
-            interactive keyboard is being rendered in 3D on a webpage 🤯, and
-            pressing each keycap reveals a skill in a goofy way. It&apos;s like
-            typing, but make it art.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/myportfolio/landing.png`,
-              `${BASE_PATH}/portfolio/skills.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
-          <p className="font-mono mb-2">
-            Dark background + floating particles = out-of-this-world cool.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/myportfolio/navbar.png`]} />
-          <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
+  // { // 03. Portfolio project
+  //   id: "portfolio",
+  //   category: "Portfolio",
+  //   title: "My Portfolio",
+  //   src: "/assets/projects-screenshots/myportfolio/landing.png",
+  //   screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
+  //   live: "https://www.abhijitzende.com/",
+  //   github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+  //   skills: {
+  //     frontend: [
+  //       PROJECT_SKILLS.ts,
+  //       PROJECT_SKILLS.next,
+  //       PROJECT_SKILLS.shadcn,
+  //       PROJECT_SKILLS.aceternity,
+  //       PROJECT_SKILLS.framerMotion,
+  //       PROJECT_SKILLS.tailwind,
+  //       PROJECT_SKILLS.spline,
+  //     ],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           Welcome to my digital playground, where creativity meets code in the
+  //           dopest way possible.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <TypographyH3 className="my-4 mt-8">
+  //           Beautiful 3D Objects{" "}
+  //         </TypographyH3>
+  //         <p className="font-mono mb-2">
+  //           Did you see that 3D keyboard modal? Yeah! I made that. That
+  //           interactive keyboard is being rendered in 3D on a webpage 🤯, and
+  //           pressing each keycap reveals a skill in a goofy way. It&apos;s like
+  //           typing, but make it art.
+  //         </p>
+  //         <SlideShow
+  //           images={[
+  //             `${BASE_PATH}/myportfolio/landing.png`,
+  //             `${BASE_PATH}/portfolio/skills.png`,
+  //           ]}
+  //         />
+  //         <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
+  //         <p className="font-mono mb-2">
+  //           Dark background + floating particles = out-of-this-world cool.
+  //         </p>
+  //         <SlideShow images={[`${BASE_PATH}/myportfolio/navbar.png`]} />
+  //         <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
 
-          <p className="font-mono mb-2">
-            My top personal and freelance projects — no filler, all killer.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/myportfolio/projects.png`,
-              `${BASE_PATH}/myportfolio/project.png`,
-            ]}
-          />
-          <p className="font-mono mb-2 mt-8 text-center">
-            This site&apos;s not just a portfolio — it&apos;s a whole vibe.
-          </p>
-        </div>
-      );
-    },
-  },
+  //         <p className="font-mono mb-2">
+  //           My top personal and freelance projects — no filler, all killer.
+  //         </p>
+  //         <SlideShow
+  //           images={[
+  //             `${BASE_PATH}/myportfolio/projects.png`,
+  //             `${BASE_PATH}/myportfolio/project.png`,
+  //           ]}
+  //         />
+  //         <p className="font-mono mb-2 mt-8 text-center">
+  //           This site&apos;s not just a portfolio — it&apos;s a whole vibe.
+  //         </p>
+  //       </div>
+  //     );
+  //   },
+  // },
   { // 04. Smart parking assitant
     id: "smartparkingassitant",
     category: "IoT",
     title: "Smart Parking Assistant",
     src: "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
-    screenshots: ["01.jpeg", "03.png"],
+    screenshots: ["01.jpeg"],
     live: "https://github.com/Abhiz2411/smart-parking-assistant",
-    github:"https://github.com/Abhiz2411/smart-parking-assistant",
+    github:"",
     skills: {
       frontend: [PROJECT_SKILLS.python],
       backend: [PROJECT_SKILLS.cplusplus, PROJECT_SKILLS.arduino],
@@ -989,7 +989,7 @@ const projects: Project[] = [
             images={[
               `${BASE_PATH}/smartparkingassitant/01.jpeg`,
               `${BASE_PATH}/smartparkingassitant/03.png`,
-              `${BASE_PATH}/smartparkingassitant/04.jpg`,
+              // `${BASE_PATH}/smartparkingassitant/04.jpg`,
             ]}
           />
         </div>
@@ -1054,7 +1054,7 @@ const projects: Project[] = [
             Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
             milestones, and life-changing services blending tech and spirituality. Built with 
             modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
-            transforms lives. 💻🕊️ Crafted with ❤️ by Abhijit Zende! 🚀
+            transforms lives! 🚀
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow

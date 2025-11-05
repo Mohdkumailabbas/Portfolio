@@ -32,7 +32,7 @@ const ContactSection = () => {
           <CardHeader>
             <CardTitle className="text-4xl">Contact Form</CardTitle>
             <CardDescription>
-              Please contact me directly at{" "}
+              Contact me directly at{" "}
               <a
                 target="_blank"
                 href={`mailto:${config.email}`}
