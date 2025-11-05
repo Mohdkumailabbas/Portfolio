@@ -1,0 +1,10 @@
+[build]
+  base = "/"                # Root directory
+  publish = ".next"         # Next.js build output
+  command = "npm run build" # Build command
+
+[build.environment]
+  NODE_VERSION = "20"       # Optional: ensure node version compatibility
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
