@@ -242,7 +242,7 @@ const PROJECT_SKILLS = {
     title: "OpenAI",
     bg: "black",
     fg: "white",
-    icon: <img src="assets/icons/openai-svgrepo-com_white.svg" alt="OpenAI"/>,
+    // icon: <img src="assets/icons/openai-svgrepo-com_white.svg" alt="OpenAI"/>,
   },
   netlify: {
     title: "Netlify",
@@ -278,7 +278,7 @@ const PROJECT_SKILLS = {
     title: "Java",
     bg: "black",
     fg: "white",
-    icon: <img src="assets/icons/icons8-java.svg" alt="Java"/>,
+    // icon: <img src="assets/icons/icons8-java.svg" alt="Java"/>,
   },
   cplusplus: {
     title: "C++",
@@ -779,7 +779,7 @@ const projects: Project[] = [
     github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
+      backend: [],
     },
     get content() {
       return (
@@ -816,7 +816,7 @@ const projects: Project[] = [
         PROJECT_SKILLS.bootstrap,
       ],
       backend: [
-        PROJECT_SKILLS.java,
+        
         PROJECT_SKILLS.maven,
         PROJECT_SKILLS.postgres,
       ],

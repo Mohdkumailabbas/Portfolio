@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -30,7 +30,7 @@
     "gsap": "^3.12.5",
     "lenis": "^1.1.6",
     "lucide-react": "^0.416.0",
-    "next": "14.2.3",
+    "next": "^16.0.1",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
